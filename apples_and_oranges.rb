@@ -5,21 +5,21 @@ require 'stringio'
 
 # Complete the countApplesAndOranges function below.
 def countApplesAndOranges(s, t, a, b, apples, oranges)
-	apple_ctr = 0
-	orange_ctr = 0
-	
-	apples.each do |apple|
-		location = a + apple
-		apple_ctr += 1 if location >= s && location <= t
-	end
+  apple_ctr = 0
+  orange_ctr = 0
 
-	oranges.each do |orange|
-		location = b + orange
-		orange_ctr += 1 if location >= s && location <= t
-	end
+  apples.each do |apple|
+    location = a + apple
+    apple_ctr += 1 if location >= s && location <= t
+  end
 
-	puts apple_ctr
-	puts orange_ctr
+  oranges.each do |orange|
+    location = b + orange
+    orange_ctr += 1 if location >= s && location <= t
+  end
+
+  puts apple_ctr
+  puts orange_ctr
 end
 
 st = gets.rstrip.split
