@@ -1,24 +1,19 @@
-#!/bin/ruby
-
+# https://www.hackerrank.com/challenges/birthday-cake-candles/problem
 require 'json'
 require 'stringio'
 
-# Complete the birthdayCakeCandles function below.
-def birthdayCakeCandles(ar)
+def birthday_cake_candles(ar)
   max = ar.max
-  count = ar.select { |num| num == max }.count
+  ar.select { |num| num == max }.count
 end
-
-ar_count = gets.to_i
 
 ar = gets.rstrip.split(' ').map(&:to_i)
 
-result = birthdayCakeCandles ar
+result = birthday_cake_candles ar
 
 puts result
 
-# ❯ ruby birthday_candles.rb 
-# 4
+# ruby birthday_candles.rb
 # 3 2 1 3
-# ❯
+
 # 2
