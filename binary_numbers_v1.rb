@@ -1,5 +1,4 @@
-#!/bin/ruby
-
+# https://www.hackerrank.com/challenges/30-binary-numbers/problem
 require 'json'
 require 'stringio'
 require 'pry'
@@ -9,29 +8,29 @@ def get_index(n)
   ctr = 0 # 0 1 2 3 4 5
   num = 0 # 0 1 2 4 8 16
 
-  while num < n do
-    num = 2 ** ctr
+  while num < n
+    num = 2**ctr
     ctr += 1
   end
 
-  index = ctr - 2
+  ctr - 2
 end
 
 # GET BINARY
 def get_binary(n, index)
-  binary = ""
+  binary = ''
   sum_check = 0
   temp = 0
 
-  while index >= 0 do
-    temp = 2 ** index 
+  while index >= 0
+    temp = 2**index
 
     # binding.pry
     if (sum_check + temp) <= n
       sum_check += temp
-      binary += "1"
+      binary += '1'
     else
-      binary += "0"
+      binary += '0'
     end
 
     index -= 1
@@ -45,9 +44,7 @@ def get_consecutive_1s(binary)
   largest_consecutive = 0
 
   binary.split('0').map do |group|
-    if group.length > largest_consecutive
-      largest_consecutive = group.length
-    end
+    largest_consecutive = group.length if group.length > largest_consecutive
   end
 
   largest_consecutive
@@ -65,9 +62,9 @@ puts "Index: #{index}"
 puts "Binary: #{binary}"
 puts "Largest consecutive 1's: #{consecutive}"
 
-# ❯ ruby binary_numbers_v1.rb
+# ruby binary_numbers_v1.rb
 # 13
-# ❯
+
 # Index: 3
 # Binary: 1101
 # Largest consecutive 1's: 2
