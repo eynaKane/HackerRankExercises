@@ -1,11 +1,8 @@
-#!/bin/ruby
-
 require 'json'
 require 'stringio'
 require 'pry'
 
-# Complete the breakingRecords function below.
-def breakingRecords(scores)
+def breaking_records(scores)
   high = low = scores.first
   max = min = 0
 
@@ -24,11 +21,11 @@ end
 
 scores = gets.rstrip.split(' ').map(&:to_i)
 
-result = breakingRecords scores
+result = breaking_records scores
 
-puts result.join " "
+puts result.join(' ')
 
-# ❯ ruby best_worst_records.rb
+# ruby best_worst_records.rb
 # 3 4 21 36 10 28 35 5 24 42
-# ❯
+
 # 4 0
