@@ -6,3 +6,6 @@ Metrics/MethodLength:
 
 Naming/UncommunicativeMethodParamName:
   MinNameLength: 1
+
+Metrics/AbcSize:
+  Max: 25
