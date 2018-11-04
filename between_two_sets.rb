@@ -26,7 +26,7 @@ def getTotalX(a, b)
 
     result << num unless abort
   end
-  
+
   result.count
 end
 # n m
@@ -59,3 +59,10 @@ b = gets.rstrip.split(' ').map(&:to_i)
 total = getTotalX a, b
 
 puts total
+
+# ❯ ruby between_two_sets.rb
+# 2 3
+# 2 4
+# 16 32 96
+# ❯
+# 3

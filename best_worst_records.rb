@@ -27,3 +27,8 @@ scores = gets.rstrip.split(' ').map(&:to_i)
 result = breakingRecords scores
 
 puts result.join " "
+
+# ❯ ruby best_worst_records.rb
+# 3 4 21 36 10 28 35 5 24 42
+# ❯
+# 4 0
