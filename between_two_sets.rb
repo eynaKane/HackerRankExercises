@@ -7,9 +7,6 @@ def get_total_x(a, b)
   result = []
   abort = false
 
-  # range_first = a.last
-  # range_last = b.first
-
   (a.last..b.first).each do |num|
     a.map do |a_num|
       abort = num % a_num != 0

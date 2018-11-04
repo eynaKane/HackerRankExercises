@@ -1,5 +1,3 @@
 task default: %w[test]
 
-task :test do
-
-end
+task :test do; end
