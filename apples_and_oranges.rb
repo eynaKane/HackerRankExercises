@@ -1,10 +1,7 @@
-#!/bin/ruby
-
 require 'json'
 require 'stringio'
 
-# Complete the countApplesAndOranges function below.
-def countApplesAndOranges(s, t, a, b, apples, oranges)
+def count_apple_orange(s, t, a, b, apples, oranges)
   apple_ctr = 0
   orange_ctr = 0
 
@@ -34,24 +31,17 @@ a = ab[0].to_i # location of apple
 
 b = ab[1].to_i # location of orange
 
-mn = gets.rstrip.split
-
-m = mn[0].to_i # num of apples
-
-n = mn[1].to_i # num of oranges
-
 apples = gets.rstrip.split(' ').map(&:to_i)
 
 oranges = gets.rstrip.split(' ').map(&:to_i)
 
-countApplesAndOranges s, t, a, b, apples, oranges
+count_apple_orange(s, t, a, b, apples, oranges)
 
-# ❯ ruby apples_and_oranges.rb 
+# ruby apples_and_oranges.rb
 # 7 11
 # 5 15
-# 3 2
 # -2 2 1
 # 5 -6
-# ❯
-# 1 
+
+# 1
 # 1

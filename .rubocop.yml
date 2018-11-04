@@ -1,0 +1,8 @@
+Metrics/ParameterLists:
+  Max: 6
+
+Metrics/MethodLength:
+  Max: 20
+
+Naming/UncommunicativeMethodParamName:
+  MinNameLength: 1
