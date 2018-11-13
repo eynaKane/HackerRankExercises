@@ -1,2 +1,6 @@
 # HackerRankExercises
-These repository holds my solutions to Hacker Rank's Exercises
+These repository holds my solutions to HackerRank's Exercises
+
+https://www.hackerrank.com/dashboard
+https://www.hackerrank.com/domains/algorithms
+https://www.hackerrank.com/domains/tutorials/30-days-of-code
