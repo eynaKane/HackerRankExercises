@@ -57,7 +57,7 @@ end
 # 9
 # Not prime
 
-# 841  
+# 841
 # Not prime
 
 # 907

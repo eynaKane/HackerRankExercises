@@ -3,7 +3,7 @@ require 'pry'
 
 def prime_or_not(data)
   return 'Not prime' if data == 1
-  
+
   ctr = 2
   prime = true
   remainder = nil
