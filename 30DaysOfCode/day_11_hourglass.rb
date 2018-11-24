@@ -48,7 +48,7 @@ groups = get_hourglasses(arr)
 
 print_largest_sum(groups)
 
-# ruby hourglass.rb
+# ruby day_11_hourglass.rb
 # 1 1 1 0 0 0
 # 0 1 0 0 0 0
 # 1 1 1 0 0 0
@@ -58,7 +58,7 @@ print_largest_sum(groups)
 
 # 19
 
-# ruby hourglass.rb
+# ruby day_11_hourglass.rb
 # -1 -1 0 -9 -2 -2
 # -2 -1 -6 -8 -2 -5
 # -1 -1 -1 -2 -3 -4
