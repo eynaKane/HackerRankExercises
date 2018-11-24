@@ -56,12 +56,20 @@ s = Student.new(first_name, last_name, id, scores)
 
 s.print_person
 
-print("\nGrade: " + s.calculate)
+puts "\nGrade: " + s.calculate
 
-# ruby inheritance.rb
+# ruby day_12_inheritance.rb
 # Heraldo Memelli 8135627
 # 100 80
 
 # Name: Memelli, Heraldo
 # ID: 8135627
 # Grade: O
+
+# ruby day_12_inheritance.rb
+# Sancho Panza 4847677
+# 41 42 43 44 45 46 48
+
+# Name: Panza, Sancho
+# ID: 4847677
+# Grade: D
