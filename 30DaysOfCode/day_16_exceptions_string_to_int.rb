@@ -9,12 +9,12 @@ rescue ArgumentError
   puts 'Bad String'
 end
 
-# ruby exceptions_string_to_int.rb
+# ruby 30DaysOfCode/day_16_exceptions_string_to_int.rb
 # 122
 
 # 122
 
-# ruby exceptions_string_to_int.rb
-# s
+# ruby 30DaysOfCode/day_16_exceptions_string_to_int.rb
+# abc
 
 # Bad String
