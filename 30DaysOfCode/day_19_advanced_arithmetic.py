@@ -1,7 +1,4 @@
 # https://www.hackerrank.com/challenges/30-interfaces/problem
-# import code
-# code.interact(local=locals())
-
 class AdvancedArithmetic(object):
   def divisorSum(n):
     raise NotImplementedError
@@ -28,20 +25,24 @@ print("I implemented: " + type(my_calculator).__bases__[0].__name__)
 
 print(s)
 
-# python interfaces.py
+# python day_19_advanced_arithmetic.py 
 # 20
-# I implemented: AdvancedArithmetic
 
+# I implemented: AdvancedArithmetic
 # 42
 
-# python interfaces.py
+# python day_19_advanced_arithmetic.py
 # 6
-# I implemented: AdvancedArithmetic
 
+# I implemented: AdvancedArithmetic
 # 12
 
-# python interfaces.py
+# python day_19_advanced_arithmetic.py
 # 1
-# I implemented: AdvancedArithmetic
 
+# I implemented: AdvancedArithmetic
 # 1
+
+# HOW TO PRY PYTHON
+# import code
+# code.interact(local=locals())
