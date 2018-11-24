@@ -3,30 +3,53 @@ require 'json'
 require 'stringio'
 require 'pry'
 
-def get_max_bitwise_and(n, k)
-  k1 = get_binary(k)
-  k2 = get_binary(k - 1)
+def get_bitwise_and(tests, t)
+  ctr1 = t - 1
+  binaries = {}
 
-  return k - 1 if perform_bitwise_or(k1, k2) <= n
+  while ctr1 >= 1
+    binary1 = convert_decimal_to_binary(ctr1)
+    binaries = { ctr1 => binary1 }
+    ctr2 = t
 
-  k - 2
+    while ctr2 > ctr1
+      binary2 = binaries[ctr2] || convert_decimal_to_binary(ctr2)
+
+      result = perform_bitwise_and(binary1, binary2)
+
+      tests = apply_result(tests, result, ctr1, ctr2)
+
+      ctr2 -= 1
+    end
+
+    ctr1 -= 1
+  end
+
+  tests
 end
 
-def perform_bitwise_or(a, b)
+def convert_decimal_to_binary(n)
+  num = n
+  binary = ''
+
+  while num != 0
+    binary += (num % 2).to_s
+    num /= 2
+  end
+
+  binary
+end
+
+def convert_binary_to_decimal(binary)
   ctr = 0
-  result = ''
+  sum = 0
 
-  until a[ctr].nil? && b[ctr].nil?
-    result += if a[ctr] == '1' || b[ctr] == '1'
-                '1'
-              else
-                '0'
-              end
-
+  until binary[ctr].nil?
+    sum += 2**ctr if binary[ctr] == '1'
     ctr += 1
   end
 
-  get_decimal(result)
+  sum
 end
 
 def perform_bitwise_and(a, b)
@@ -41,50 +64,37 @@ def perform_bitwise_and(a, b)
   convert_binary_to_decimal(binary)
 end
 
-def get_binary(decimal)
-  binary = ''
-
-  while decimal != 0
-    binary += (decimal % 2).to_s
-    decimal /= 2
+def apply_result(tests, result, ctr1, ctr2)
+  tests.each do |k, v|
+    if result < v[1] && result > v[2] && ctr1 <= v[0] && ctr2 <= v[0]
+      tests[k][2] = result
+    end
   end
 
-  binary
-end
-
-def get_decimal(binary)
-  ctr = 0
-  sum = 0
-
-  until binary[ctr].nil?
-    sum += 2**ctr if binary[ctr] == '1'
-    ctr += 1
-  end
-
-  sum
+  tests
 end
 
 t = gets.to_i
-results = []
+max_n = 0
+tests = {}
 
-t.times do
+t.times do |index|
   nk = gets.rstrip.split
 
   n = nk[0].to_i
   k = nk[1].to_i
 
-  results << if k.odd?
-               k - 1
-             else
-               get_max_bitwise_and(n, k)
-             end
+  max_n = n if n > max_n
+  tests[index] = [n, k, 0]
 end
 
-results.each do |result|
-  puts result
+results = get_bitwise_and(tests, max_n)
+
+results.values.each do |result|
+  puts result[2]
 end
 
-# ruby bitwise_v1.rb
+# ruby bitwise_v2.rb
 # 5
 # 955 236
 # 132 107
@@ -98,7 +108,7 @@ end
 # 377
 # 28
 
-# ruby bitwise_v1.rb
+# ruby bitwise_v2.rb
 # 3
 # 5 2
 # 8 5
@@ -108,7 +118,7 @@ end
 # 4
 # 0
 
-# ruby bitwise_v1.rb
+# ruby bitwise_v2.rb
 # 2
 # 9 2
 # 8 3
@@ -116,7 +126,7 @@ end
 # 1
 # 2
 
-# ruby bitwise_v1.rb
+# ruby bitwise_v2.rb
 # 5
 # 840 416
 # 165 114
