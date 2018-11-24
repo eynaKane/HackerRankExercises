@@ -80,17 +80,7 @@ mylist.display(head)
 
 puts
 
-# ruby linked_list_duplicates.rb
-# 5
-# 2
-# 3
-# 3
-# 4
-# 6
-
-# 2 3 4 6
-
-# ruby linked_list_duplicates.rb
+# ruby linked_list_duplicates_v1.rb
 # 6
 # 1
 # 2
@@ -101,7 +91,17 @@ puts
 
 # 1 2 3 4
 
-# ruby linked_list_duplicates.rb
+# ruby linked_list_duplicates_v1.rb
+# 5
+# 2
+# 3
+# 3
+# 4
+# 6
+
+# 2 3 4 6
+
+# ruby linked_list_duplicates_v1.rb
 # 20
 # 3
 # 9
