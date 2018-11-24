@@ -67,17 +67,7 @@ mylist.display(arr)
 
 puts
 
-# ruby linked_list_duplicates_v2.rb
-# 5
-# 2
-# 3
-# 3
-# 4
-# 6
-
-# 2 3 4 6
-
-# ruby linked_list_duplicates_v2.rb
+# ruby day_24_linked_list_duplicates.rb
 # 6
 # 1
 # 2
@@ -88,7 +78,17 @@ puts
 
 # 1 2 3 4
 
-# ruby linked_list_duplicates_v2.rb
+# ruby day_24_linked_list_duplicates.rb
+# 5
+# 2
+# 3
+# 3
+# 4
+# 6
+
+# 2 3 4 6
+
+# ruby day_24_linked_list_duplicates.rb
 # 20
 # 3
 # 9
