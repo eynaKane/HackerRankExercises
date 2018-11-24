@@ -8,7 +8,7 @@ def prime_or_not(data)
   prime = true
   remainder = nil
 
-  while remainder != 0 && ctr * ctr <= data
+  while remainder != 0 && ctr < data
     remainder = data % ctr
     if remainder.zero?
       prime = false
@@ -27,38 +27,26 @@ T.times do
   puts prime_or_not(data)
 end
 
-# ruby prime_numbers.rb
+# ruby prime_numbers_v1.rb
 # 3
 # 12
+
 # Not prime
 
 # 5
+
 # Prime
 
 # 7
+
 # Prime
 
-# ruby prime_numbers.rb
+# ruby prime_numbers_v1.rb
 # 2
 # 31
+
 # Prime
 
 # 33
-# Not prime
 
-# ruby prime_numbers_v1.rb
-# 5
-# 1
 # Not prime
-
-# 4
-# Not prime
-
-# 9
-# Not prime
-
-# 841
-# Not prime
-
-# 907
-# Prime
