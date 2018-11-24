@@ -19,7 +19,6 @@ puts result
 # 3
 # 6
 
-# HackerRankExercises git/30-days-of-code  11s
 # ruby day9_factorial.rb
 # 5
 # 120
