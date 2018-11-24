@@ -18,13 +18,13 @@ d.computeDifference()
 
 print d.maximumDifference
 
-# python 30DaysOfCode/day_14_difference.py
+# python day_14_difference.py
 # 3
 # 1 2 5
 
 # 4
 
-# python 30DaysOfCode/day_14_difference.py
+# python day_14_difference.py
 # 5 
 # 8 19 3 2 7
 
