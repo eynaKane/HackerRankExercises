@@ -56,7 +56,7 @@ height = my_tree.get_height(root)
 
 puts "The height of Binary Search Tree is #{height}"
 
-# ruby day_22_binary_search_tree_height.rb 
+# ruby day_22_binary_search_tree_height.rb
 # 7
 # 3
 # 5
