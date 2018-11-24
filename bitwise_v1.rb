@@ -84,7 +84,7 @@ results.each do |result|
   puts result
 end
 
-# ruby bitwise.rb
+# ruby bitwise_v1.rb
 # 5
 # 955 236
 # 132 107
@@ -98,7 +98,7 @@ end
 # 377
 # 28
 
-# ruby bitwise.rb
+# ruby bitwise_v1.rb
 # 3
 # 5 2
 # 8 5
@@ -108,7 +108,7 @@ end
 # 4
 # 0
 
-# ruby bitwise.rb
+# ruby bitwise_v1.rb
 # 2
 # 9 2
 # 8 3
@@ -116,7 +116,7 @@ end
 # 1
 # 2
 
-# ruby bitwise.rb
+# ruby bitwise_v1.rb
 # 5
 # 840 416
 # 165 114
