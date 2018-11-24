@@ -14,7 +14,7 @@ n = gets.to_i
 
 multiples(n)
 
-# ruby day5_multiples_of_ten.rb
+# ruby day_05_multiples_of_ten.rb
 # 2
 
 # 2 x 1 = 2

@@ -40,7 +40,7 @@ T.times do
   puts ''
 end
 
-# ruby day4_young_or_old.rb
+# ruby day_04_young_or_old.rb
 # 4
 # -1
 

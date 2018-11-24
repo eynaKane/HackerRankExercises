@@ -3,7 +3,7 @@ input_string = gets
 
 puts "Hello, World.\n#{input_string}"
 
-# ruby day0_hello_world.rb
+# ruby day_00_hello_world.rb
 # Welcome to 30 Days of Code!
 
 # Hello, World.

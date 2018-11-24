@@ -22,7 +22,7 @@ puts d + d2
 # The 's' variable above should be printed first.
 puts s + s2
 
-# ruby day1_datatype.rb
+# ruby day_01_datatype.rb
 # 12
 # 4.0
 # is the best place to learn and practice coding!

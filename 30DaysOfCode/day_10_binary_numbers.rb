@@ -36,19 +36,19 @@ consecutive = get_consecutive_1s(binary)
 puts "Binary: #{binary}"
 puts "Largest consecutive 1's: #{consecutive}"
 
-# ruby day10_binary_numbers.rb
+# ruby day_10_binary_numbers.rb
 # 5
 
 # Binary: 101
 # Largest consecutive 1's: 1
 
-# ruby day10_binary_numbers.rb
+# ruby day_10_binary_numbers.rb
 # 6
 
 # Binary: 110
 # Largest consecutive 1's: 2
 
-# ruby day10_binary_numbers.rb
+# ruby day_10_binary_numbers.rb
 # 439
 
 # Binary: 110110111

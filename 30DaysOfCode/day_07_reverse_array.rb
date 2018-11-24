@@ -11,7 +11,7 @@ arr = gets.rstrip.split(' ').map(&:to_i)
 
 reverse_array(arr)
 
-# ruby day7_reverse_array.rb
+# ruby day_07_reverse_array.rb
 # 1 4 3 2
 
 # 2 3 4 1

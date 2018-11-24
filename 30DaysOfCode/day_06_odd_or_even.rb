@@ -25,7 +25,7 @@ end
 
 result.map { |r| puts r }
 
-# ruby day6_odd_or_even.rb
+# ruby day_06_odd_or_even.rb
 # 2
 # Hacker
 # Rank

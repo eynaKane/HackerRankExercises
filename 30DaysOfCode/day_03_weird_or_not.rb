@@ -14,12 +14,12 @@ end
 N = gets.to_i
 are_you_weird(N)
 
-# ruby day3_weird_or_not_weird.rb
+# ruby day_03_weird_or_not.rb
 # 3
 
 # Weird
 
-# ruby day3_weird_or_not_weird.rb
+# ruby day_03_weird_or_not.rb
 # 24
 
 # Not Weird

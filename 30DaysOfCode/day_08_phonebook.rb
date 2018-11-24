@@ -36,7 +36,7 @@ names.each do |name|
   end
 end
 
-ruby day8_phonebook.rb
+# ruby day_08_phonebook.rb
 # 3
 # sam 99912222
 # tom 11122222

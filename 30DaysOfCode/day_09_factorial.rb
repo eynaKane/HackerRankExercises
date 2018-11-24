@@ -15,10 +15,10 @@ result = factorial n
 
 puts result
 
-# ruby day9_factorial.rb
+# ruby day_09_factorial.rb
 # 3
 # 6
 
-# ruby day9_factorial.rb
+# ruby day_09_factorial.rb
 # 5
 # 120

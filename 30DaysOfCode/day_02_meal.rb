@@ -16,7 +16,7 @@ tax_percent = gets.to_i
 
 solve(meal_cost, tip_percent, tax_percent)
 
-# ruby day2_meal.rb
+# ruby day_02_meal.rb
 # 12.00
 # 20
 # 8
