@@ -52,12 +52,12 @@ else
   puts "The word, #{input}, is not a palindrome."
 end
 
-# ruby queues_and_stacks.rb
+# ruby day_18_palindrome_or_not.rb
+# apple
+
+# The word, apple, is not a palindrome.
+
+# ruby day_18_palindrome_or_not.rb
 # racecar
 
-# The word, raccar, is a palindrome.
-
-# ruby queues_and_stacks.rb
-# caca
-
-# The word, caca, is not a palindrome.
+# The word, racecar, is a palindrome.
