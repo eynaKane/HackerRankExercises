@@ -37,7 +37,7 @@ price = gets
 new_novel = MyBook.new(title, author, price)
 new_novel.display
 
-# ruby abstract_classes.rb
+# ruby day_13_abstract_classes.rb
 # The Alchemist
 # Paulo Coelho
 # 248
