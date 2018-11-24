@@ -25,7 +25,7 @@ print d.maximumDifference
 # 4
 
 # python day_14_difference.py
-# 5 
+# 5
 # 8 19 3 2 7
 
 # 17
