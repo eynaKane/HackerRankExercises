@@ -23,18 +23,18 @@ puts "Array is sorted in #{swap_ctr} swaps."
 puts "First Element: #{a.first}"
 puts "Last Element: #{a.last}"
 
-# ruby bubble_sort.rb
+# ruby day_20_bubble_sort.rb
 # 3
-# 1 2 3
+# 1 3 5
 
 # Array is sorted in 0 swaps.
 # First Element: 1
-# Last Element: 3
+# Last Element: 5
 
-# ruby bubble_sort.rb
+# ruby day_20_bubble_sort.rb
 # 3
-# 3 2 1
+# 5 3 1
 
 # Array is sorted in 3 swaps.
 # First Element: 1
-# Last Element: 3
+# Last Element: 5
