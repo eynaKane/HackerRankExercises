@@ -1,5 +1,4 @@
 # https://www.hackerrank.com/challenges/30-testing/problem
-
 def minimum_index(seq):
   if len(seq) == 0:
     raise ValueError("Cannot get the minimum value index from an empty sequence")
@@ -69,6 +68,10 @@ TestiWithExactyTwoDifferentMinimums()
 
 print "OK"
 
-# python testing.py
+# python day_27_testing.py
 
 # OK
+
+# HOW TO PRY PYTHON
+# import code
+# code.interact(local=locals())
