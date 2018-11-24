@@ -7,6 +7,7 @@ class Printer <T> {
 
     for (int i = 0; i < array.length; i++) {
       System.out.print(array[i]);
+
       if (i < array.length - 1) {
         System.out.print(", ");
       }
@@ -16,7 +17,7 @@ class Printer <T> {
   }
 }
 
-public class Generics {
+public class day_21_generic_variable {
   public static void main(String args[]){
     Scanner scanner = new Scanner(System.in);
     int n = scanner.nextInt();
@@ -35,6 +36,7 @@ public class Generics {
     
     Printer<Integer> intPrinter = new Printer<Integer>();
     Printer<String> stringPrinter = new Printer<String>();
+    
     intPrinter.printArray(intArray);
     stringPrinter.printArray(stringArray);
 
@@ -44,8 +46,8 @@ public class Generics {
   } 
 }
 
-// javac Generics.java
-// java Generics
+// javac day_21_generic_variable.java
+// java day_21_generic_variable
 // 3
 // 1
 // 2
@@ -56,3 +58,7 @@ public class Generics {
 
 // [1, 2, 3]
 // [Hello, World]
+
+// HOW TO COMPILE AND RUN JAVA
+// javac day_21_generic_variable.java
+// java day_21_generic_variable
