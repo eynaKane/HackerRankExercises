@@ -57,7 +57,18 @@ end
 
 my_tree.level_order(root)
 
-# ruby binary_search_tree_level.rb
+# ruby day_23_binary_search_tree_level.rb
+# 6
+# 3
+# 5
+# 4
+# 7
+# 2
+# 1
+
+# 3 2 5 1 4 7
+
+# ruby day_23_binary_search_tree_level.rb
 # 13
 # 25
 # 39
@@ -74,14 +85,3 @@ my_tree.level_order(root)
 # 90
 
 # 25 12 39 9 19 31 55 23 35 41 60 70 90
-
-# ruby binary_search_tree_level.rb
-# 6
-# 3
-# 5
-# 4
-# 7
-# 2
-# 1
-
-# 3 2 5 1 4 7
