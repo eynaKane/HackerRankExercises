@@ -5,8 +5,8 @@ require 'pry'
 
 # GET HIGHEST INDEX
 def get_index(n)
-  ctr = 0 # 0 1 2 3 4 5
-  num = 0 # 0 1 2 4 8 16
+  ctr = 0
+  num = 0
 
   while num < n
     num = 2**ctr
@@ -25,7 +25,6 @@ def get_binary(n, index)
   while index >= 0
     temp = 2**index
 
-    # binding.pry
     if (sum_check + temp) <= n
       sum_check += temp
       binary += '1'
