@@ -43,7 +43,7 @@ else
   puts calculate_fine(return_month, return_day, expected_month, expected_day)
 end
 
-# ruby day_26_library_return_policy.rb 
+# ruby day_26_library_return_policy.rb
 # 9 6 2015
 # 6 6 2015
 
