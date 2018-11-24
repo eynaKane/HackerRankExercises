@@ -20,6 +20,7 @@ t = gets.to_i
 
 (1..t).each do
   n, p = gets.split.map(&:to_i)
+
   begin
     ans = my_calculator.power(n, p)
     puts ans.to_i
@@ -28,16 +29,20 @@ t = gets.to_i
   end
 end
 
-# ruby exceptions_calculator.rb
+# ruby day_17_exceptions_calculator.rb
 # 4
 # 3 5
+
 # 243
 
 # 2 4
+
 # 16
 
 # -1 -2
+
 # n and p should be non-negative
 
-# -1 3
+# -1 3243
+
 # n and p should be non-negative
