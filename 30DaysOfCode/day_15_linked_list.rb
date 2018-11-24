@@ -50,19 +50,13 @@ end
 
 mylist.display(head)
 
-# ruby linked_list.rb
-# 3
-# 8
-# 5
-# 3
+puts
 
-# 8 5 3
+# ruby day_15_linked_list.rb
+# 4
+# 2
+# 3
+# 4
+# 1
 
-# head
-# #<Node:0x00007ff60096f250
-# @data=8,
-#   @next=#<Node:0x00007ff602029478
-# @data=5,
-#   @next=#<Node:0x00007ff600c854f8
-# @data=3,
-#   @next=nil>>>
+# 2 3 4 1
