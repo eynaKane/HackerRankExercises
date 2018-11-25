@@ -1,4 +1,4 @@
-# https://www.hackerrank.com/challenges/ruby-tutorial-each/problem
+# https://www.hackerrank.com/challenges/ruby-tutorial-unless/problem
 require 'pry'
 
 # User class
