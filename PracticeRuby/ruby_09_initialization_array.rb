@@ -2,25 +2,28 @@
 require 'pry'
 
 array = []
-array_1 = [nil]
-array_2 = [10, 10]
+array1 = [nil]
+array2 = [10, 10]
 
 @_binding = binding
 def show_output(p, b = @_binding)
+  # rubocop:disable Security/Eval
   eval("
-    local_variables.each do |v| 
+    local_variables.each do |v|
       if eval(v.to_s + \".object_id\") == " + p.object_id.to_s + "
         puts 'variable named ' + v.to_s + ' is defined!'
-        puts v.to_s + ' variable belongs to the class `' + eval(v.to_s).class.to_s + '`!'
+        puts v.to_s + ' variable belongs to the class `'\
+          + eval(v.to_s).class.to_s + '`!'
         puts v.to_s + ' is of size ' + eval(v.to_s).count.to_s + '!'
       end
     end
-  " , b)
+  ", b)
+  # rubocop:enable Security/Eval
 end
 
 show_output(array)
-show_output(array_1)
-show_output(array_2)
+show_output(array1)
+show_output(array2)
 
 # variable named array is defined!
 # array variable belongs to the class `Array`!
