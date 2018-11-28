@@ -1,4 +1,4 @@
-# https://www.hackerrank.com/challenges/ruby-array-index-i/problem
+# https://www.hackerrank.com/challenges/ruby-array-index-ii/problem
 require 'pry'
 
 def element_at(arr, index)
@@ -64,12 +64,13 @@ first_n(arr, 4)
 drop_n(arr, 5)
 
 # rubocop:disable Metrics/LineLength
-# ruby ruby_10_index_part_1_array.rb
+# ruby ruby_11_index_part_2_array.rb
 
 # Correct! Elements of the Array variable are 10 in number
 # Correct! All the elements of the Array are Integers!
-# Correct! Element at 8 is 2!
-# Correct! The elements between the index 4 and 9 is [4, 6, 7, 1, 2, 3]!
-# Correct! The elements between the index 3 and 8 (not inclusive) is [5, 4, 6, 7, 1]!
-# Correct! The 6 elements starting from 3 are [5, 4, 6, 7, 1, 2]!
+# Correct! The element at 2 from the end of the array is 2
+# Correct! The first element of the array is 9!
+# Correct! The last element of the array is 3!
+# Correct! The first 4 elements of the array are [9, 7, 6, 5]!
+# Correct! The elements of the array after dropping 5 elements are [6, 7, 1, 2, 3]!
 # rubocop:enable Metrics/LineLength
