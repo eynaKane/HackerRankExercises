@@ -24,7 +24,7 @@ def start_and_length(arr, start_pos, length)
     "are #{result}!"
 end
 
-arr = [9, 5, 1, 5, 4, 6, 7, 1, 2, 3]
+arr = [9, 7, 6, 5, 4, 6, 7, 1, 2, 3]
 arr_size = arr.size
 arr_class = arr.first.class.to_s + 's'
 
