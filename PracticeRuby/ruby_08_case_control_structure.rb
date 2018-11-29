@@ -1,3 +1,4 @@
+# https://www.hackerrank.com/challenges/ruby-case/problem
 require 'pry'
 require 'active_support/inflector'
 

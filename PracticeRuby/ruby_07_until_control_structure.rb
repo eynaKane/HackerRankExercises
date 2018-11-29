@@ -1,4 +1,4 @@
-# https://www.hackerrank.com/challenges/ruby-infinite-loop/problem
+# https://www.hackerrank.com/challenges/ruby-until/problem
 require 'pry'
 
 # Coder class
