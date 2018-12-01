@@ -1,6 +1,5 @@
 # https://www.hackerrank.com/challenges/ruby-enumerable-each-with-index/problem
 require 'pry'
-require 'faker'
 
 def skip_animals(animals, skip)
   puts "\nOriginal Animal List:"
