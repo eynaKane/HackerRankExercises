@@ -28,19 +28,18 @@ print_name(first_name, middle_name, last_name, full_name)
 
 # No Middle Name
 first_name = Faker::Name.first_name
-middle_name = nil
 last_name = Faker::Name.last_name
 full_name = full_name(first_name, last_name)
 print_name(first_name, last_name, full_name)
 
 # Three Middle Names
 first_name = Faker::Name.first_name
-middle_name1 = Faker::Name.middle_name
-middle_name2 = Faker::Name.middle_name
-middle_name3 = Faker::Name.middle_name
+mid_name1 = Faker::Name.middle_name
+mid_name2 = Faker::Name.middle_name
+mid_name3 = Faker::Name.middle_name
 last_name = Faker::Name.last_name
-full_name = full_name(first_name, middle_name1, middle_name2, middle_name3, last_name)
-print_name(first_name, middle_name1, middle_name2, middle_name3, last_name, full_name)
+full_name = full_name(first_name, mid_name1, mid_name2, mid_name3, last_name)
+print_name(first_name, mid_name1, mid_name2, mid_name3, last_name, full_name)
 
 # ruby ruby_26_variable_args_method.rb
 
@@ -50,7 +49,7 @@ print_name(first_name, middle_name1, middle_name2, middle_name3, last_name, full
 # Full Name: Mona So Stracke
 
 # First:  Claretta
-# Middle: 
+# Middle:
 # Last: Durgan
 # Full Name: Claretta Durgan
 
