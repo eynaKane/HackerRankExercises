@@ -9,7 +9,3 @@ Naming/UncommunicativeMethodParamName:
 
 Metrics/AbcSize:
   Max: 25
-
-AllCops:
-  Exclude:
-    - "PracticeRuby/ruby_34_strings.rb"
