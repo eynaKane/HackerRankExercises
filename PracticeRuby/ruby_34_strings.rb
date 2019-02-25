@@ -3,14 +3,16 @@ def single_quote
   'Hello World and others!'
 end
 
+# rubocop:disable Style/StringLiterals
 def double_quote
   "Hello World and others!"
 end
+# rubocop:enable Style/StringLiterals
 
 def here_doc
-  <<~HERE
+  <<-HEREDOC
   Hello World and others!
-  HERE
+  HEREDOC
 end
 
 puts single_quote
@@ -21,4 +23,4 @@ puts here_doc
 
 # Hello World and others!
 # Hello World and others!
-# Hello World and others!
+#   Hello World and others!
